@@ -1,0 +1,211 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Fundo preto */
+    color: #ff0000; /* Texto vermelho */
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamanho de fonte base para telas pequenas */
+}
+
+header {
+    background-color: #ff0000; /* Fundo vermelho para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #000; /* Texto preto para o título do clube */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000000; /* Links em vermelho */
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente preto */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+h1 {
+    font-size: 32px;
+    color: #ff0000; /* Texto vermelho para títulos */
+}
+
+h3 {
+    font-size: 24px;
+    color: #000; /* Texto preto para cabeçalhos */
+    background-color: #ff0000; /* Fundo vermelho para cabeçalho */
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Estilos para links */
+a {
+    color: #ff0000; /* Links em vermelho */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para a imagem do cabeçalho */
+.img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; /* Torna a imagem responsiva */
+}
+
+/* Estilos para a classe .box que envolve as conquistas e jogadores ilustres */
+.box {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente preto */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra suave */
+}
+
+/* Estilos para as listas de jogadores ilustres */
+ul.player-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Estilos para os nomes dos jogadores */
+ul.player-list li {
+    background-color: #fff; /* Cor de fundo branca */
+    border: 1px solid #e0e0e0; /* Adiciona uma borda */
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente os elementos */
+}
+
+ul.player-list li img {
+    margin-right: 10px;
+}
+
+h4.player-name {
+    color: #ff0000; /* Texto vermelho para nomes de jogadores */
+}
+
+/* Estilos para o rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff0000; /* Fundo vermelho para o rodapé */
+    color: #000; /* Texto preto no rodapé */
+    font-size: 14px;
+}
+
+/* Estilos específicos para telas maiores */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+/* Estilos para imagens dos jogadores */
+ul.player-list li img {
+    max-width: 60%; /* Ajuste o tamanho máximo conforme necessário */
+    height: auto;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #cc0000;
+}
+
+/* Estilos para o rodapé */
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #ff0000;
+    color: #000;
+    font-size: 14px;
+    width: 100%;
+}
+
+/* Estilos específicos para telas menores */
+
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
